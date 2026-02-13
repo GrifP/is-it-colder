@@ -2,13 +2,10 @@
 
 A Google Apps Script that monitors temperature differences between two cities and sends Slack notifications when one becomes colder than the other.
 
-**Default cities:** Phoenix, AZ vs. Boston, MA
-
 ## Features
 - Checks temperatures every 10 minutes using OpenWeather API
 - Logs temperature data to Google Sheets
 - Sends Slack notifications only when the temperature relationship changes
-- Configurable cities without code changes
 
 ## Setup
 
@@ -63,7 +60,7 @@ To monitor different cities, add/update these Script Properties:
 - `CITY_1`: The reference city (e.g., "New York", "London", "Tokyo")
 - `CITY_2`: The comparison city (e.g., "Miami", "Paris", "Sydney")
 
-**Note:** City names should match OpenWeather's city database. For cities with common names, try adding state/country: "Portland,OR,US" or "Portland,UK"
+**Note:** City names should match OpenWeather's city database.
 
 ## How It Works
 
