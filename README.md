@@ -1,4 +1,4 @@
-# is-it-colder?
+# is it colder in phoenix than boston?
 
 A Google Apps Script that monitors temperature differences between two cities and sends Slack notifications when one becomes colder than the other.
 
